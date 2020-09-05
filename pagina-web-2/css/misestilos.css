@@ -1,0 +1,13 @@
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+  }
+
+.datos {
+    display: flex;
+    flex-direction: column;
+    padding: 55px;
+    margin: 26px;
+
+}

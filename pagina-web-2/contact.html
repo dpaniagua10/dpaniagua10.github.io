@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contactanos </title>
+    <meta name="description" content="soluciones tecnologicas, servicios tecnicos, seguridad, desarrollo">
+    <meta name="keywords" content="tecnologia, desarrollo, seguridad, soporte, hostings">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/misestilos.css">
+    <script src="js/myscript.js"></script>
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+  <!-- START: header -->
+  
+  <div class="probootstrap-loader"></div>
+
+  <header role="banner" class="probootstrap-header">
+    <div class="container">
+        <a href="index.html" class="probootstrap-logo">Dpaniagua<span>.</span>com</a>
+        
+        <a href="#" class="probootstrap-burger-menu visible-xs" ><i>Menu</i></a>
+        <div class="mobile-menu-overlay"></div>
+
+        <nav role="navigation" class="probootstrap-nav hidden-xs">
+          <ul class="probootstrap-main-nav">
+            <li><a href="index.html" style="font-size: x-large;text-shadow: 1px 0.1px 5px black">Inicio</a></li>
+            <!-- START: header <li><a href="projects">Projects</a></li>-->
+            <li><a href="proyectos.html" style="font-size: x-large;text-shadow: 1px 0.1px 5px black">Proyectos</a></li>
+            <li class="active"><a href="contact.html" style="font-size: x-large;text-shadow: 1px 0.1px 5px black">Contacto</a></li>
+            <li><a href="references.html" style="font-size: x-large;text-shadow: 1px 0.1px 5px black">Referencias</a></li>
+          </ul>
+          <ul class="probootstrap-right-nav hidden-xs">
+            <li><a href="https://twitter.com/DanielP75457204?s=09"><i class="icon-twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/danipan13"><i class="icon-facebook2"></i></a></li>
+            <li><a href="https://www.instagram.com/dpaniagua13"><i class="icon-instagram2"></i></a></li>
+          </ul>
+          <div class="extra-text visible-xs"> 
+            <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
+            <h5>Direccion</h5>
+            <p>pendiente de confirmar</p>
+          </div>
+        </nav>
+    </div>
+  </header>
+  <!-- END: header -->
+  <section class="probootstrap-slider flexslider">
+    <ul class="slides">
+      <li style="background-image: url(img/slider_3.jpg);">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <div class="slides-text probootstrap-animate">
+                <h2 style="border: transparent; text-shadow: 2px 3px 11px black; font-size: 5em; margin-top: 0.2em">Conoce mas</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <!-- END: slider  -->
+  
+  <section class="probootstrap-section">
+    <div class="container" >
+      <div class="service left-icon probootstrap-animate">
+        <div class="row">
+          <div class="col-md-8">
+            <form id="datos" action="#" method="post" class="probootstrap-form mb60">
+              <div class="form-group">   
+                <label for="name">Nombre</label>
+                <input type="text" class="form-control" id="name" name="name" >                       
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email">
+              </div>
+              <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea cols="20" rows="10" class="form-control" id="message" name="message"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" class="btn btn-primary" id="submit" name="submit" value="Enviar" onclick="alerta_email();return true">
+              </div>
+            </form>
+          </div>
+          <div class="col-md-3 col-md-push-1">
+            <h4>Detalle de Contacto</h4>
+            <ul class="with-icon colored">
+              <li><i class="icon-location2"></i> <span>pendiente ------</span></li>
+              <li><i class="icon-mail"></i><span>info@system.biz.gt</span></li>
+              <li><i class="icon-phone2"></i><span>+502 3232 3977</span></li>
+            </ul>
+
+            <h4>System.com</h4>
+            <p>Conoce nuestros principales servicios y soluciones</p>
+            <p><a href="single-page.html">Leer más</a></p>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </section>  
+  <!--<div id="map"></div>-->
+
+  <footer class="probootstrap-footer probootstrap-bg">
+    <div class="container">
+      <div class="row mb60">
+        <div class="col-md-6">
+          <div class="probootstrap-footer-widget">
+            <h4 class="heading">Acerca de System</h4>
+            <p>Somos una empresa Guatemalteca, que ofrece servicios y soluciones tecnologicas confiables, seguras y agiles; a 
+            pequeñas y medianas empresas. </p>
+          </div> 
+        </div>
+        <div class="col-md-6">
+          <div class="probootstrap-footer-widget probootstrap-link-wrap">
+            <h4 class="heading">Accesos Rapidos</h4>
+            <ul class="stack-link">
+              <li><a href="#">Inicio</a></li>
+              <li><a href="proyectos.html">Proyectos</a></li>
+              <li><a href="contact.html">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row copyright">
+        <div class="col-md-6">
+          <div class="probootstrap-footer-widget">
+            <p>&copy; 2019 <a href="">System web pages</a>. Designed by <a href="">System.com</a
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="probootstrap-footer-widget right">
+            <ul class="probootstrap-social">
+              <li><a href="https://twitter.com/DanielP75457204?s=09"><i class="icon-twitter"></i></a></li>
+              <li><a href="https://www.facebook.com/danipan13"><i class="icon-facebook2"></i></a></li>
+              <li><a href="https://www.instagram.com/dpaniagua13"><i class="icon-instagram2"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
+  </div>
+  
+
+  <script src="js/scripts.min.js"></script>
+  <script src="js/main.min.js"></script>
+
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+
+
+  <script src="js/custom.js"></script>
+
+  </body>
+</html>
