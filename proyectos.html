@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Servicios </title>
+    <title>Proyectos </title>
     <meta name="description" content="soluciones tecnologicas, servicios tecnicos, seguridad, desarrollo">
     <meta name="keywords" content="tecnologia, desarrollo, seguridad, soporte, hostings">
     
@@ -13,6 +13,14 @@
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/misestilos.css">
+    <script src="http://code.jquery.com/jquery-2.1.3.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <script>
+      $(document).ready(function() {
+      $("#demoTabs").tabs();
+
+      });
+    </script> 
     <!--[if lt IE 9]>
       <script src="js/vendor/html5shiv.min.js"></script>
       <script src="js/vendor/respond.min.js"></script>
@@ -42,7 +50,7 @@
           <ul class="probootstrap-right-nav hidden-xs">
             <li><a href="https://twitter.com/DanielP75457204?s=09"><i class="icon-twitter"></i></a></li>
             <li><a href="https://www.facebook.com/danipan13"><i class="icon-facebook2"></i></a></li>
-            <li><a href="#"><i class="icon-instagram2"></i></a></li>
+            <li><a href="https://www.instagram.com/dpaniagua13"><i class="icon-instagram2"></i></a></li>
           </ul>
           <div class="extra-text visible-xs"> 
             <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
@@ -81,87 +89,23 @@
 
   <section class="probootstrap-section">
     <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="service left-icon probootstrap-animate">
-
-            <div class="icon">
-              <i class="icon-shield3"></i>
-            </div>
-            <div class="text">
-              <h3 class="heading">Antivirus</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-              <p><a href="single-page.html">Learn more</a></p>
-            </div>
-
-          </div>
+      <div id="demoTabs" class="service left-icon probootstrap-animate">
+        <ul>
+          <li><a href="#coach">Proyecto 1</a></li>
+          <li><a href="#bike">Proyecto 2</a></li>
+          <li><a href="#truck">Proyecto 3</a></li>
+        </ul>
+        <div id="coach"><img src="coach.png"/>
+          <p>Chispudo</p>
         </div>
-        <div class="col-md-4">
-          <div class="service left-icon probootstrap-animate">
-            <div class="icon">
-              <i class="icon-block"></i>
-            </div>
-            <div class="text">
-              <h3 class="heading">Firewall</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-              <p><a href="single-page.html">Learn more</a></p>
-            </div>
-          </div>
+        <div id="bike"><img src="bike.png"/>
+          <p>Banco web</p>
         </div>
-        <div class="col-md-4">
-          <div class="service left-icon probootstrap-animate">
-            <div class="icon">
-              <i class="icon-tools-2"></i>
-            </div>
-            <div class="text">
-              <h3 class="heading">Soporte Tecnico</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-              <p><a href="single-page.html">Learn more</a></p>
-            </div>
-          </div>
+        <div id="truck"><img src="truck.png"/>
+          <p>Buscador</p>
         </div>
-
-
-        <div class="col-md-4">
-          <div class="service left-icon probootstrap-animate">
-
-            <div class="icon">
-              <i class="icon-database2"></i>
-            </div>
-            <div class="text">
-              <h3 class="heading">Base de Datos</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-              <p><a href="single-page.html">Learn more</a></p>
-            </div>
-
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service left-icon probootstrap-animate">
-            <div class="icon">
-              <i class="icon-embed2"></i>
-            </div>
-            <div class="text">
-              <h3 class="heading">Desarrollo</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-              <p><a href="single-page.html">Learn more</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service left-icon probootstrap-animate">
-            <div class="icon">
-              <i class="icon-network"></i>
-            </div>
-            <div class="text">
-              <h3 class="heading">Red</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-              <p><a href="single-page.html">Learn more</a></p>
-            </div>
-          </div>
-        </div>
-
       </div>
+      
     </div>
   </section>
   <!-- END section -->
@@ -198,7 +142,7 @@
             <ul class="probootstrap-social">
               <li><a href="https://twitter.com/DanielP75457204?s=09"><i class="icon-twitter"></i></a></li>
             <li><a href="https://www.facebook.com/danipan13"><i class="icon-facebook2"></i></a></li>
-              <li><a href="#"><i class="icon-instagram2"></i></a></li>
+              <li><a href="https://www.instagram.com/dpaniagua13"><i class="icon-instagram2"></i></a></li>
             </ul>
           </div>
         </div>
